@@ -1,0 +1,112 @@
+body {
+  margin: none;
+  background-image: linear-gradient(
+    to right top,
+    #4ba5a2,
+    #4fa9a6,
+    #53ada9,
+    #56b1ad,
+    #5ab5b1,
+    #5fbbb7,
+    #64c2bc,
+    #69c8c2,
+    #71d2cb,
+    #78dbd5,
+    #80e5de,
+    #88efe8
+  );
+  height: 98vh;
+}
+
+/* Ex 1 */
+.firstExercise {
+  background-color: #2d9995;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 8px;
+  margin: 10px 0px 15px;
+  font-size: 15px;
+}
+
+.numberBtn {
+  background-color: #86ded8;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 70px;
+  margin-left: 10px;
+  padding: 8px;
+}
+
+#no1,
+#no2 {
+  background-color: #71b4af;
+  border-radius: 8%;
+  border: 1px solid black;
+  width: 60px;
+  height: 25px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+/* Ex 2 */
+.secondExercise {
+  border: 2px solid black;
+  background-color: #2d9995;
+  padding: 12px;
+  border-radius: 15px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secondExercise button {
+  width: 76px;
+  border: 1px solid black;
+  background-color: #86ded8;
+  padding: 12px;
+  border-radius: 4px;
+  margin: 0 6px;
+  font-size: 15px;
+}
+
+.lightBtns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px;
+}
+
+.trafficLight {
+  padding: 10px 40px;
+  width: 100px;
+  margin: 12px;
+  background-color: black;
+  border-radius: 16px;
+}
+
+.trafficLight div {
+  height: 100px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.gray {
+  background-color: gray;
+}
